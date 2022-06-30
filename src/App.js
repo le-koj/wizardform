@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { Form1 } from "./formComponents/stepForms";
+import { ProgressBar } from './formComponents/progressBar';
+import { CarpetCleaningServiceForm, UpholsteryCleaningServiceForm } from "./formComponents/stepForms";
 
 function App() {
   return (
@@ -17,7 +20,11 @@ function App() {
         >
           Learn React
         </a>
+        <ProgressBar currentStep={1} recall={null}/>
+        <Form1 exit={null} handleClick={null}/>
       </header>
+      <CarpetCleaningServiceForm />
+      <UpholsteryCleaningServiceForm />
     </div>
   );
 }

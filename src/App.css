@@ -36,3 +36,266 @@
     transform: rotate(360deg);
   }
 }
+
+/* -------------- Zipcode Input Component Style ------------------- */
+.zip-form-container {
+  width: 500px;
+  margin: 0 auto;
+  /*
+  border: 1px solid blue;
+  */
+}
+
+.zip-form-container input {
+  height: 50px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+/* -------------- Button Component Style -------------------- */
+.btn-continue {
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.btn-active {
+  background-color: #ffcc33;
+  color: #000;
+}
+
+.btn-gray {
+  background-color: rgb(189, 186, 186);
+  color: #fff;
+}
+
+
+/* ------------- ExitButton Component ---------------- */
+.btn-exit {
+  cursor: pointer;
+  float: right;
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 10px;
+}
+
+/* -------------------- Form1 CSS --------------------- */
+.zip-form {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px #888888;
+  /*
+  border: 1px solid red;
+  */
+}
+
+.zip-form h3 {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.zip-form h1 {
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.zip-form p {
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* ---------------------- ProgressBar CSS ------------------ */
+.progress-bar {
+  display: grid;
+  width: 95%;
+  height: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100%;
+  gap: 5px;
+
+  /*
+  border: 1px solid blue;
+  */
+}
+
+.progress-bar li {
+  cursor: pointer;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  list-style-type: none;
+  /*
+  border: 1px solid red;
+  */
+}
+
+.bar-gray {
+  background-color: rgb(212, 212, 212);
+  color: #999;
+}
+
+.bar-active {
+  background-color: #ffcc33;
+  color: #000;
+}
+
+/* ----------------------- Service Tables ---------------- */
+.service-table {
+  width: 100%;
+  max-width: fit-content;
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.service-table th,
+.service-table td {
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.service-table thead th {
+  padding: 20px;
+  width: 80px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  /*
+  border: 1px solid blue;
+  */
+}
+
+.service-table tr {
+  background-color: #444;
+  /*
+  border: 1px solid blue;
+  */
+}
+
+.service-table tbody th {
+  text-align: left;
+  padding: 20px;
+}
+
+.service-table tbody td {
+  padding: 20px;
+  text-align: center;
+  /*
+  border: 1px solid blue;
+  */
+}
+
+.service-table .input-control {
+  width: 50px;
+  height: 30px;
+  padding: 1px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.service-table .btn-minus,
+.service-table .btn-plus {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #c2c2c2;
+}
+
+/* -------------- ToggleIcon -------------- */
+.togg-icon {
+  cursor: pointer;
+  text-align: center;
+  float: right;
+  width: 50px;
+  background-color: #ffcc33;
+  color: #000;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 60px;
+  /*
+  padding: 5px;
+  
+  border: 1px solid blue;
+  */
+}
+
+.togg-icon:hover {
+  background-color: #fff;
+  border: 2px solid #ffcc33;
+  color: #000;
+}
+
+/* -------------- CarpetCleaningServiceForm CSS ------------- */
+.service-option {
+  width: 100%;
+  max-width: 800px;
+  min-width: 360;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+}
+
+.service-head {
+  width: 100%;
+}
+
+.service-head h3 {
+  line-height: 40px;
+  padding: 30px;
+  letter-spacing: 0.5px;
+  font-size: 2em;
+  text-align: left;
+  /*
+  border: 1px solid green;
+  /**/
+}
